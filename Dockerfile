@@ -14,3 +14,7 @@ COPY . /usr/share/nginx/html
 FROM httpd.latest
 # Copy the content of the cuurent directory into the httpd web root directory
 COPY ./usr/share/html
+
+FROM httpd.latest
+# Copy the content of the cuurent directory into the httpd web root directory
+COPY ./usr/share/html
